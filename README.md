@@ -32,7 +32,7 @@ What I added
 
 Error noticed:
 
-[FIXED]
+[FIXED AGAIN]
 A path would not be push into the array if the user draws a path and does not let go until they are outside the canvas
     -After pressing "Undo," the last path draw within the canvas would be deleted along with this path
     -OR
