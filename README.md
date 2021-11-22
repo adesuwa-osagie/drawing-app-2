@@ -13,6 +13,22 @@ What I added
 -Redo
 -Eraser
 -Showing range value
+-Adjusted clear function to save a clear image in case user wants to undo a "clear"
+-Load an image to a canvas 
+-Changing opacity 
+    -Solution: Added jscolor.js - a JavaScript library
+    -Source: https://jscolor.com/
+
+-Changing background's color [Work in progress]
+-Saving image of canvas
+    -For saving from IE/Edge browser: https://stackoverflow.com/questions/21860633/download-canvas-to-image-in-ie-using-javascript
+
+
+    //For saving from Chrome/Firefox
+    -Convert HTML5 Canvas to Image (PNG or JPG) - JavaScript Tutorial
+    -Source: https://www.youtube.com/watch?v=YoVJWZrS2WU
+
+-Keeping canvas size the same
 
 Error noticed:
 

@@ -26,15 +26,37 @@
             <div onClick="change_color(this)" class="color-field" style="background: green;"></div>
             <div onClick="change_color(this)" class="color-field" style="background: yellow;"></div>
 
-            <input onInput="draw_color = this.value" type="color" class="color-picker">
-            <input type="range" min="1" max="100" class="pen-range" id="myRange"
-                onInput="draw_width = this.value">
+            <!-- <input onInput="draw_color = this.value" type="color" class="color-picker"> -->
+            Color: <input onInput="draw_color = this.value" value="#3399FF80" class="color-picker" data-jscolor="{}">
+
+            <input type="range" min="1" max="100" class="pen-range" id="myRange" onInput="draw_width = this.value">
             <p>Value: <span id="demo"></span></p>
 
             <button onClick="erase_color()" type="button" class="button">Erase</button>
-            
-        </div>
+
+            <!-- <div onClick="getValue(this)" src="./images/Beautiful-girls-with-Monokuma.png">Beautiful girls with Monokuma</div>-->
+
+            <img onClick="getValue(this)" src="./images/Beautiful-girls-with-Monokuma.png" alt="girls" width="160" height="120">
+
+            <img onClick="getValue(this)" src="./images/junko.png" alt="junko" width="160" height="120">
+
+            <!-- To make sure that true png images will work -->
+            <img onClick="getValue(this)" src="./images/apple.png" alt="apple" width="160" height="120"> 
+
+            <!-- <a href="./images/chiaki_nanami.jpg" class="image">Chiaki Two</a> -->
+
+            <!-- <a href="https://dev.mangajam.com/wp-content/uploads/2016/11/How_Draw_Chiaki-Nanami_Dangan_Ronpa_10.jpg" class="image">Chiaki</a> -->
+
+            <p>Background</p>
+            Color: <input onchange="background_color(this)" value="#3399FF80" class="color-picker" data-jscolor="{}">
+
+
     </div>
-<script src="main.js"></script>
+
+    <hr>
+    <button onClick="saveCanvas()" type="button">Download</button>
+
+    <script src="jscolor.js"></script>
+    <script src="main.js"></script>
 </body>
 </html>
