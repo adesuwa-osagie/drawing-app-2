@@ -345,9 +345,9 @@ function saveCanvas() {
         const a = document.createElement("a");
 
         document.body.appendChild(a);
-        a.href = myCanvas.toDataURL();
+        a.href = canvas.toDataURL();
         a.download = "canvas-image.png";
-        a.click()
+        a.click();
     }
 }
 

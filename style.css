@@ -1,3 +1,14 @@
+@font-face {
+    font-family: 'DorBlue';
+    src: url('./fonts/DorBlue.eot');
+    src: url('./fonts/DorBlue.eot?#iefix') format('embedded-opentype'),
+         url('./fonts/DorBlue.svg#DorBlue') format('svg'),
+         url('./fonts/DorBlue.ttf') format('truetype'),
+         url('./fonts/DorBlue.woff') format('woff'),
+         url('./fonts/DorBlue.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+  }
 
 body {
     margin: 0 px;
@@ -48,4 +59,10 @@ canvas {
 .color-picker {
     align-self: center;
     margin: 0 10px;
+}
+
+.testName {
+    color: white;
+    font-size: 2em;
+    font-family: 'DorBlue', sans-serif;
 }
