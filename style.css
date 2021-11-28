@@ -10,6 +10,16 @@
     font-style: normal;
   }
 
+  @font-face {
+    font-family: 'trebuc';
+    src: url('./fonts/trebuc.eot');
+    src: url('./fonts/trebuc.eot') format('embedded-opentype'),
+         url('./fonts/trebuc.woff2') format('woff2'),
+         url('./fonts/trebuc.woff') format('woff'),
+         url('./fonts/trebuc.ttf') format('truetype'),
+         url('./fonts/trebuc.svg#trebuc') format('svg');
+}
+
 body {
     margin: 0 px;
     padding: 30px;
